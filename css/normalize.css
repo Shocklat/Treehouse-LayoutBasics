@@ -430,17 +430,12 @@ th {
    ========================================================================== */
 
 /**
- * Remove most spacing between table cells.
+ * Remove default list styles, margins and padding.
  */
 
- ol,
+ ol, 
  ul {
   margin: 0;
   padding: 0;
   list-style: none;
- }
-
-
-
-
-
+}
