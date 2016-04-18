@@ -118,7 +118,18 @@ a {
 
 	/* ---- Columns ---- */
 
-	
+	.col {
+		width: 45%;
+		margin: 0 2.5%;
+	}
+
+	.primary {
+		float: right;
+	}
+
+	.secondary {
+		float: left;
+	}
 	
 	/* ------------- */
 
