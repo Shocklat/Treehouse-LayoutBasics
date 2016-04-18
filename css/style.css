@@ -111,14 +111,47 @@ a {
 	.name {
 		width: 240px;
 		margin-right: 50px;
+		float: left;
 	}
 
 	.main-nav li {
 		margin-right: 12px;
 	}
 
+	.col {
+		width: 45%;
+		margin: 0 2.5%;
+	}
+
+	.primary {
+		float: left;
+	}
+
+	.secondary {
+		float: right;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/*
+================================= 
+  Clearfix
+=================================
+*/
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
