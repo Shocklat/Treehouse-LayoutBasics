@@ -119,16 +119,11 @@ a {
 	}
 
 	.col {
-		width: 45%;
-		margin: 0 2.5%;
-	}
-
-	.primary {
-		float: left;
-	}
-
-	.secondary {
-		float: right;
+		width: 50%;
+		margin-right: -4px;
+		display: inline-block;
+		padding: 0 1em;
+		vertical-align: top;
 	}
 
 	.main-nav {
@@ -137,11 +132,7 @@ a {
 
 }
 
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /*
 ================================= 
