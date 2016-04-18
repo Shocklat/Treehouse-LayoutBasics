@@ -60,6 +60,12 @@ a {
 	color: #093a58;
 }
 
+.name a,
+.main-nav a {
+	padding: 10px 15px;
+	display: inline-block;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
@@ -68,6 +74,7 @@ a {
 }
 
 .main-header {
+	text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -96,4 +103,28 @@ a {
 		margin: 0 auto;
 	}
 
+	.name,
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.name {
+		width: 240px;
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
 }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
