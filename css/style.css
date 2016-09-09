@@ -42,13 +42,25 @@ img {
 
 /* ---- Navigation ---- */
 
+
+.main-header {
+	padding: .5em 0;
+}
+
 .name {
 	font-size: 1.25em;
+	margin: 0;
+}
+
+.main-nav {
+	margin-top: 5px;
 }
 
 .name a,
 .main-nav a {
 	text-align: center;
+	display: block;
+	padding: 10px 15px;
 }
 
 .main-nav a {
@@ -63,15 +75,23 @@ img {
 
 /* ---- Layout Containers ---- */
 
+.container {
+	padding: 2.5%;
+}
+
 .banner {
 	color: #fff;
 	background: #3acec2;
+	text-align: center;
+	padding: 2.5% 0;
 }
 
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;
 	margin-top: 30px;
+	text-align: center;
+
 }
 
 /* ---- Page Elements ---- */
@@ -80,12 +100,91 @@ img {
 	width: 190px;
 }
 
+.col {
+  margin: 2.5% 2.5% 2.5% 0;
+}
+  /*padding: 2.5%;
+
+
+
+
 /* ================================= 
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
 
+	.container {
+		max-width: 1150px;
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+
+	}
+
+	.name {
+		float: left;
+	}
+
+	.main-nav {
+		float: right;	
+	}
+
+	.main-nav li {
+		display: inline-block;
+		vertical-align: bottom;
+		
+	}
+
+	.col {
+		float: left;
+		width: 47.5%;
+	}
+
+	.col + .col {
+  		margin-left: 2.5%;
+	}
+
+	.col:last-child {
+  		margin-right: 0;
+  
+}
+
+	.primary {
+		
+		margin-right: 0;
+	}
+
+	.secondary {
+		float: left;
+	}
+
+	.tertiary {
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media (min-width: 1025px) {
+
+	.container {
+		width: 80%
+	}
+
+	.col {
+		width: 30%;
+	}
+
+	.primary {
+		margin-right: 2.5%;
+	}
+
+	.tertiary {
+		clear: none;
+		width: 30%;
+
+	}
+}
 
 
 	/* ---- Float clearfix ---- */
@@ -96,4 +195,4 @@ img {
 		clear: both;
 	}
 
-}
+
